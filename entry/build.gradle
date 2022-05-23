@@ -1,0 +1,24 @@
+apply plugin: 'com.huawei.ohos.hap'
+ohos {
+    compileSdkVersion 5
+    defaultConfig {
+        compatibleSdkVersion 4
+    }
+    buildTypes {
+        release {
+            proguardOpt {
+                proguardEnabled true
+                rulesFiles 'proguard-rules.pro'
+            }
+        }
+    }
+}
+buildscript {
+    repositories {
+        maven { url 'https://developer.huawei.com/repo/' }
+    }
+}
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar', '*.har'])
+    implementation 'com.huawei.hms:push-ohos:5.2.0.306'
+}

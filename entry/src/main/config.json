@@ -1,0 +1,97 @@
+{
+  "app": {
+    "bundleName": "com.huawei.ohos.pushsample",
+    "vendor": "huawei",
+    "version": {
+      "code": 1000001,
+      "name": "1.0.1"
+    }
+  },
+  "deviceConfig": {},
+  "module": {
+    "package": "com.huawei.ohos.pushsample",
+    "name": ".MyApplication",
+    "deviceType": [
+      "phone",
+      "tv",
+      "wearable",
+      "car"
+    ],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "entry",
+      "moduleType": "entry",
+      "installationFree": false
+    },
+    "abilities": [
+      {
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "action.system.home"
+            ]
+          }
+        ],
+        "orientation": "portrait",
+        "name": ".MainAbility",
+        "icon": "$media:icon",
+        "description": "$string:mainability_description",
+        "label": "$string:mainability_label",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "backgroundModes": [
+          "dataTransfer",
+          "bluetoothInteraction",
+          "wifiInteraction"
+        ],
+        "skills": [
+          {
+            "actions": [
+              "com.huawei.push.action.MESSAGING_EVENT"
+            ]
+          }
+        ],
+        "name": ".DemoHmsMessageServiceAbility",
+        "icon": "$media:icon",
+        "description": "$string:demohmsmessageserviceability_description",
+        "type": "service",
+        "visible": false,
+        "permissions": []
+      },
+      {
+        "orientation": "portrait",
+        "name": ".TokenAbility",
+        "icon": "$media:icon",
+        "description": "$string:tokenability_description",
+        "label": "$string:tokenability_label",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "portrait",
+        "name": ".DeeplinkActionAbility",
+        "visible": true,
+        "icon": "$media:icon",
+        "description": "$string:deeplinkactionability_description",
+        "label": "$string:deeplinkactionability_label",
+        "type": "page",
+        "launchType": "standard",
+        "skills": [
+          {
+            "entities": [
+              "entity.system.default"
+            ],
+            "actions": [
+              "com.demo.click"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

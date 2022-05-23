@@ -1,0 +1,36 @@
+{
+  "string": [
+    {
+      "name": "app_name",
+      "value": "PushDemo"
+    },
+    {
+      "name": "mainability_description",
+      "value": "Java_Phone_Empty Feature Ability"
+    },
+    {
+      "name": "mainability_label",
+      "value": "PushDemo"
+    },
+    {
+      "name": "demohmsmessageserviceability_description",
+      "value": "hap sample empty service"
+    },
+    {
+      "name": "tokenability_description",
+      "value": "Java_Phone_Empty Feature Ability"
+    },
+    {
+      "name": "tokenability_label",
+      "value": "TokenAbility"
+    },
+    {
+      "name": "deeplinkactionability_description",
+      "value": "Java_Phone_Empty Feature Ability"
+    },
+    {
+      "name": "deeplinkactionability_label",
+      "value": "DeeplinkActionAbility"
+    }
+  ]
+}
