@@ -16,6 +16,7 @@ ohos {
 buildscript {
     repositories {
         maven { url 'https://developer.huawei.com/repo/' }
+        maven { url 'https://repo.huaweicloud.com/repository/maven/'}
     }
 }
 dependencies {

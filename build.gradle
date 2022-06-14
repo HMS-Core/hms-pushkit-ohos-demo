@@ -11,6 +11,7 @@ ohos {
 buildscript {
     repositories {
         maven { url 'https://developer.huawei.com/repo/' }
+        maven { url 'https://repo.huaweicloud.com/repository/maven/'}
     }
     dependencies {
         classpath 'com.huawei.ohos:hap:2.4.4.2'
@@ -19,6 +20,7 @@ buildscript {
 }
 allprojects {
     repositories {
+        maven { url 'https://repo.huaweicloud.com/repository/maven/'}
         maven { url 'https://developer.huawei.com/repo/' }
     }
 }
