@@ -23,7 +23,7 @@ English | [中文](README_ZH.md)
    2. Create an app.
     Create an app and enable APIs.
    3. Build the demo.
-     To build this demo, please first import the demo to DevEco Studio (2.X or later). Then download the agconnect-services.json file of the app from AppGallery Connect, and add the file to the directory (\resources\rawfile) of the demo.
+     To build this demo, please first import the demo to DevEco Studio (2.1 or later). Then download the agconnect-services.json file of the app from AppGallery Connect, and add the file to the directory (\resources\rawfile) of the demo.
      You should also generate a signing certificate fingerprint and add the certificate file to the project, and add configuration to build.gradle.
 
 ## Hardware Requirements
