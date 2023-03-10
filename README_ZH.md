@@ -22,7 +22,7 @@
 ## 开发准备
 1.	注册华为账号，成为[华为开发者](https://developer.huawei.com/consumer/cn/)。
 2.	创建应用，启动接口。
-3.	构建本示例代码，需要先把它导入鸿蒙集成开发环境（DevEco Studio）（2.X及以上版本）。然后从AppGallery Connect下载应用的agconnect-services.json文件，并添加到示例代码的rawfile目录下（\resources\rawfile）。另外，需要生成签名证书指纹并将证书文件添加到项目中，然后将配置添加到build.gradle。详细信息，请参见[HUAWEI HMS Core](https://developer.huawei.com/consumer/cn/doc/development/HMSCore-Guides/harmony-java-development-environment-0000001227370647)集成准备。
+3.	构建本示例代码，需要先把它导入鸿蒙集成开发环境（DevEco Studio）（2.1及以上版本）。然后从AppGallery Connect下载应用的agconnect-services.json文件，并添加到示例代码的rawfile目录下（\resources\rawfile）。另外，需要生成签名证书指纹并将证书文件添加到项目中，然后将配置添加到build.gradle。详细信息，请参见[HUAWEI HMS Core](https://developer.huawei.com/consumer/cn/doc/development/HMSCore-Guides/harmony-java-development-environment-0000001227370647)集成准备。
 
 ## 硬件要求
 安装有Windows 10/Windows 7操作系统的计算机（台式机或者笔记本）
