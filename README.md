@@ -27,7 +27,7 @@ English | [中文](README_ZH.md)
      You should also generate a signing certificate fingerprint and add the certificate file to the project, and add configuration to build.gradle.
 
 ## Hardware Requirements
-   A computer (desktop or laptop) that runs the Windows 10/Windows 7 operating system
+   A computer (desktop or laptop) that runs the Windows 10/Windows 7 or macOS 10.14/10.15/11.2.2 operating system
 
    A Huawei mobile phone with a USB cable, to be used for service debugging
 
