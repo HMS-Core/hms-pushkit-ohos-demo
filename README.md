@@ -23,11 +23,11 @@ English | [中文](README_ZH.md)
    2. Create an app.
     Create an app and enable APIs.
    3. Build the demo.
-     To build this demo, please first import the demo to DevEco Studio (2.1 or later). Then download the agconnect-services.json file of the app from AppGallery Connect, and add the file to the directory (\resources\rawfile) of the demo.
+     To build this demo, please first import the demo to DevEco Studio (2.1 or later). Then download the agconnect-services.json file of the app from AppGallery Connect, and add the file to the entry directory of the demo.
      You should also generate a signing certificate fingerprint and add the certificate file to the project, and add configuration to build.gradle.
 
 ## Hardware Requirements
-   A computer (desktop or laptop) that runs the Windows 10/Windows 7 or macOS 10.14/10.15/11.2.2 operating system
+   A computer (desktop or laptop) that runs the Windows 10 or macOS 10.14/10.15/11.2.2 operating system
 
    A Huawei mobile phone with a USB cable, to be used for service debugging
 
