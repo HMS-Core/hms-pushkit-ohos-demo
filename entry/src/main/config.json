@@ -13,6 +13,7 @@
     "name": ".MyApplication",
     "deviceType": [
       "phone",
+      "tablet",
       "tv",
       "wearable",
       "car"
@@ -91,6 +92,14 @@
             ]
           }
         ]
+      },
+      {
+        "permissions": [
+          "com.huawei.agconnect.core.DataAbilityShellProvider.PROVIDER"
+        ],
+        "name": "com.huawei.agconnect.core.provider.AGConnectInitializeAbility",
+        "type": "data",
+        "uri": "dataability://com.huawei.ohos.pushsample.AGConnectInitializeAbility"
       }
     ]
   }

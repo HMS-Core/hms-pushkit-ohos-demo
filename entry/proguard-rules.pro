@@ -7,4 +7,5 @@
 -keepattributes SourceFile,LineNumberTable
 
 -keep class com.huawei.hms.push.**{*;}
+-keep class com.huawei.agconnect.**{*;}
 

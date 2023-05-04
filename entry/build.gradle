@@ -1,4 +1,5 @@
 apply plugin: 'com.huawei.ohos.hap'
+apply plugin: 'com.huawei.agconnect'
 ohos {
     compileSdkVersion 5
     defaultConfig {
@@ -22,4 +23,6 @@ buildscript {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar', '*.har'])
     implementation 'com.huawei.hms:push-ohos:5.2.0.306'
+    // agconnect依赖组件
+    implementation 'com.huawei.agconnect:agconnect-core-harmony:1.3.2.300'
 }
